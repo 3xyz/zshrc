@@ -23,4 +23,4 @@ Then apply changes in .zshrc by
 ```
 source ~/.zshrc
 ```
-At first start plugin (powerlevel)[https://github.com/romkatv/powerlevel10k#manual] suggest u to configure title.
+At first start plugin [ powerlevel ](https://github.com/romkatv/powerlevel10k#manual) suggest u to configure title.
