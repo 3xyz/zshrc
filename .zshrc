@@ -85,6 +85,18 @@ alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 
+
+# enable auto-suggestions based on the history
+if [ -f ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
+    . ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh    # change suggestion color
+    ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
+fi
+
+# enable command-not-found if installed
+if [ -f ~/.zsh/zsh_command_not_found.zsh ]; then
+    . ~/.zsh/zsh_command_not_found.zsh
+fi
+
 if [ -f ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
     . ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
     ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern)
@@ -129,15 +141,4 @@ if [ -f ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
     ZSH_HIGHLIGHT_STYLES[bracket-level-4]=fg=yellow,bold
     ZSH_HIGHLIGHT_STYLES[bracket-level-5]=fg=cyan,bold
     ZSH_HIGHLIGHT_STYLES[cursor-matchingbracket]=standout
-fi
-
-# enable auto-suggestions based on the history
-if [ -f ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
-    . ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh    # change suggestion color
-    ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
-fi
-
-# enable command-not-found if installed
-if [ -f ~/.zsh/zsh_command_not_found.zsh ]; then
-    . ~/.zsh/zsh_command_not_found.zsh
 fi
