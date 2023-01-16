@@ -11,7 +11,7 @@ Switch to zsh (if not switched) You can check for which shell running by `echo $
 chsh -s /bin/zsh
 ```
 #### config
-Install config (if you already have config you need to delete that by rm -f ~/.zshrc
+Install config (if you already have config you need to delete that by `rm -f ~/.zshrc`
 ```
 wget https://raw.githubusercontent.com/3xyz/zshrc/main/.zshrc -O ~/.zshrc
 ```
