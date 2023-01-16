@@ -1,6 +1,6 @@
 ### Install dependencies
 This config require some patched [ fonts ](https://www.nerdfonts.com/).
----
+___
 #### zsh 
 Install zsh (if not installed)
 ```
