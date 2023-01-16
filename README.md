@@ -6,7 +6,7 @@ Install zsh (if not installed)
 ```
 apt install zsh
 ```
-Switch to zsh (if not switched)
+Switch to zsh (if not switched) You can check for which shell running by `echo $0` 
 ```
 chsh -s /bin/zsh
 ```
